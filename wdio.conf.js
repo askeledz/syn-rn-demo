@@ -79,9 +79,10 @@ exports.config = {
         'appium:VERSION': '12.0',
         'appium:deviceName': 'emulator',
         'appium:platformName': 'Android',
-        //'appium:appActivity': '.MainActivity',
-        //'appium:appPackage' : 'com.amazon.rialto.cordova.webapp.webapp58f7ba22e0b346d9af55652dd3187ba4',
         'appium:automationName': 'UiAutomator2'
+        //'appium:appActivity': '.MainActivity',
+        //'appium:appPackage' : 'com.weathergroup.synergy.qa',
+        //'appium:autoGrantPermissions': true
     }],
 
     //
