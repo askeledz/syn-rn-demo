@@ -1,0 +1,74 @@
+{
+  "start": "2023-11-12T13:31:30.573Z",
+  "end": "2023-11-12T13:31:48.112Z",
+  "capabilities": {
+    "platformName": "Android",
+    "app": "/Users/askeledzija/workspace/syn-rn-demo/app/firetv/app-release.apk",
+    "VERSION": "12.0",
+    "deviceName": "emulator-5554",
+    "automationName": "UiAutomator2",
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "app": "/Users/askeledzija/workspace/syn-rn-demo/app/firetv/app-release.apk",
+      "VERSION": "12.0",
+      "deviceName": "emulator",
+      "automationName": "UiAutomator2"
+    },
+    "deviceUDID": "emulator-5554",
+    "appPackage": "com.synergyrn",
+    "pixelRatio": "1.3312501",
+    "statBarHeight": 0,
+    "viewportRect": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "deviceApiLevel": 31,
+    "platformVersion": "12",
+    "deviceManufacturer": "Google",
+    "deviceModel": "sdk_google_atv64_amati_arm64",
+    "deviceScreenSize": "1280x720",
+    "deviceScreenDensity": 213,
+    "sessionId": "16bcbd1c-a523-42d7-9420-8bcc69eb37b8"
+  },
+  "host": "127.0.0.1",
+  "port": 4723,
+  "baseUrl": "",
+  "duration": 17539,
+  "suites": [
+    {
+      "title": "Sample test",
+      "duration": 17392,
+      "start": "2023-11-12T13:31:30.575Z",
+      "end": "2023-11-12T13:31:47.967Z",
+      "tests": [
+        {
+          "title": "this is my first mobile test",
+          "start": "2023-11-12T13:31:30.575Z",
+          "end": "2023-11-12T13:31:47.965Z",
+          "duration": 17390,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///Users/askeledzija/workspace/syn-rn-demo/test/specs/synergy-rn.spec.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}

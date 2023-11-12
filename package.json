@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wdio/cli": "^8.20.2"
+    "@wdio/cli": "^8.20.2",
+    "wdio-timeline-reporter": "^5.1.4"
   },
   "devDependencies": {
     "@applitools/eyes-selenium": "^4.71.1",

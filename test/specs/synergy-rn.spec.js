@@ -6,7 +6,7 @@ let eyes;
 let applitoolsApiKey;
 var viewportSize_landscape = { width: 1280, height: 720 }
 
-describe('Sample test', () => {
+describe('Synergy-RN Demo', () => {
     it('this is my first mobile test', async () => {
         //Visual testing
         eyes = new Eyes();
