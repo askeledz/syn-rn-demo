@@ -73,15 +73,13 @@ exports.config = {
         // 'appium:deviceName': 'Pixel 4 API 30 Level 11', // or "iPhone Simulator"
         // 'appium:automationName': 'UIAutomator2', // or "XCUITest"
         // 'appium:app': path.join(process.cwd(), 'app/android/Android-MyDemoAppRN.1.3.0.build-244.apk')
-        //     //Android TV
+        //FireTV/Android TV
         'appium:app': path.join(process.cwd(), 'app/firetv/app-release.apk'),
-        //'appium:app': path.join(process.cwd(), 'app/androidtv/appTv-grio-androidtv-debug.apk'),
-        //'appium:app': '/Users/askeledzija/workspace/appium20/app/tv/app-debug#42.apk',
-        //'appium:app': '/Users/askeledzija/workspace/appium20/app/tv/ln#smoke.apk',
+        //'appium:app': path.join(process.cwd(), 'app/firetv/appTv-hbcugo-firetv-debug.apk'),
         'appium:VERSION': '12.0',
         'appium:deviceName': 'emulator',
         'appium:platformName': 'Android',
-       // 'appium:appActivity': '.MainActivity',
+        //'appium:appActivity': '.MainActivity',
         //'appium:appPackage' : 'com.amazon.rialto.cordova.webapp.webapp58f7ba22e0b346d9af55652dd3187ba4',
         'appium:automationName': 'UiAutomator2'
     }],
