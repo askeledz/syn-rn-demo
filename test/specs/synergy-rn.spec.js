@@ -2,7 +2,7 @@ import HomeScreen from '../pageobjects/synergy/home.screen'
 import { Key } from 'webdriverio'
 
 describe('Synergy-RN Demo', () => {
-    it('this is my first mobile test', async () => {
+    it('This is my first mobile test', async () => {
         //POM
         await browser.keys([Key.ArrowLeft])
         await browser.keys([Key.ArrowLeft])
