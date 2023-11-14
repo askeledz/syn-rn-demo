@@ -26,7 +26,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/**/*.spec.js'
     ],
     // define specific suites
     suites: {
