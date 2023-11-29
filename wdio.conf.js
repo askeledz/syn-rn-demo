@@ -74,12 +74,16 @@ exports.config = {
         // 'appium:automationName': 'UIAutomator2', // or "XCUITest"
         // 'appium:app': path.join(process.cwd(), 'app/android/Android-MyDemoAppRN.1.3.0.build-244.apk')
         //FireTV/Android TV
-        'appium:app': path.join(process.cwd(), 'app/firetv/app-release.apk'),
-        //'appium:app': path.join(process.cwd(), 'app/firetv/appTv-hbcugo-firetv-debug.apk'),
+        //'appium:app': path.join(process.cwd(), 'app/firetv/app-release.apk'),
+        'appium:app': '/Users/askeledzija/workspace/synergy-rn/android/app/build/outputs/apk/debug/app-debug.apk',
+        //'appium:app': '/Users/askeledzija/workspace/synergy-rn/android/app/build/outputs/apk/release/app-release.apk',
         'appium:VERSION': '12.0',
         'appium:deviceName': 'emulator',
         'appium:platformName': 'Android',
-        'appium:automationName': 'UiAutomator2'
+        'appium:automationName': 'UiAutomator2',
+        'appium:fullReset': true
+        //noReset = true
+        //fullReset = false
         //'appium:appActivity': '.MainActivity',
         //'appium:appPackage' : 'com.weathergroup.synergy.qa',
         //'appium:autoGrantPermissions': true
