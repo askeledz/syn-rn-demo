@@ -77,11 +77,13 @@ exports.config = {
         //'appium:app': path.join(process.cwd(), 'app/firetv/app-release.apk'),
         'appium:app': '/Users/askeledzija/workspace/synergy-rn/android/app/build/outputs/apk/debug/app-debug.apk',
         //'appium:app': '/Users/askeledzija/workspace/synergy-rn/android/app/build/outputs/apk/release/app-release.apk',
+        //'appium:app': '/Users/askeledzija/Downloads/4.8.0#48-QA-Android-1257d33/app-release.apk', // --> TWC
         'appium:VERSION': '12.0',
         'appium:deviceName': 'emulator',
         'appium:platformName': 'Android',
         'appium:automationName': 'UiAutomator2',
-        'appium:fullReset': true
+        'appium:fullReset': true,
+        'appium:avd': "Television_720p_API_31"
         //noReset = true
         //fullReset = false
         //'appium:appActivity': '.MainActivity',

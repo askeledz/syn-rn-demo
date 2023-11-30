@@ -1,7 +1,7 @@
 {
   "name": "avrdemo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Appium 2.0 using webdriverio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,5 +32,8 @@
     "eslint-plugin-wdio": "^8.20.0",
     "selenium-webdriver": "^4.14.0",
     "ts-node": "^10.9.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
