@@ -82,8 +82,8 @@ exports.config = {
         'appium:deviceName': 'emulator',
         'appium:platformName': 'Android',
         'appium:automationName': 'UiAutomator2',
-        'appium:fullReset': true,
-        'appium:avd': "Television_720p_API_31"
+        'appium:fullReset': true
+        //'appium:avd': "Television_720p_API_31"
         //noReset = true
         //fullReset = false
         //'appium:appActivity': '.MainActivity',
