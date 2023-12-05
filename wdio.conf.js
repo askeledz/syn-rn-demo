@@ -1,4 +1,4 @@
-const path = require('path');
+//const path = require('path');
 const { TimelineService } = require('wdio-timeline-reporter/timeline-service');
 
 exports.config = {
