@@ -75,15 +75,19 @@ exports.config = {
         // 'appium:app': path.join(process.cwd(), 'app/android/Android-MyDemoAppRN.1.3.0.build-244.apk')
         //FireTV/Android TV
         //'appium:app': path.join(process.cwd(), 'app/firetv/app-release.apk'),
-        'appium:app': '/Users/askeledzija/workspace/synergy-rn/android/app/build/outputs/apk/debug/app-debug.apk',
+        'appium:app': '/Users/askeledzija/workspace/synergy-rn/android/app/build/outputs/apk/debug/app-debug.apk', //--> Last good build
         //'appium:app': '/Users/askeledzija/workspace/synergy-rn/android/app/build/outputs/apk/release/app-release.apk',
-        //'appium:app': '/Users/askeledzija/Downloads/4.8.0#48-QA-Android-1257d33/app-release.apk', // --> TWC
+        //'appium:app': '/Users/askeledzija/Documents/Posao/AMD/app/TWC/FireTV/app-release.apk', // --> TWC
         'appium:VERSION': '12.0',
         'appium:deviceName': 'emulator',
         'appium:platformName': 'Android',
         'appium:automationName': 'UiAutomator2',
         'appium:fullReset': true
-        //'appium:avd': "Television_720p_API_31"
+        //"appium:noReset": false
+        //"appium:appWaitForLaunch": true,
+        //'appium:avd': "Television_720p_API_31",
+        //"appium:autoGrantPermissions": true,
+        //"appium:autoWebview": true,
         //noReset = true
         //fullReset = false
         //'appium:appActivity': '.MainActivity',
